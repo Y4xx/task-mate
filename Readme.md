@@ -42,7 +42,7 @@ TaskMate is a full-stack task management application that allows users to create
 
 ## Project Structure
 ```
-taskdeck/
+taskmate/
 ├── frontend/               # React frontend
 │   ├── src/
 │   │   ├── components/    # Reusable components
@@ -69,7 +69,7 @@ taskdeck/
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd taskdeck
+cd task-mate
 ```
 
 2. Install Backend Dependencies:
@@ -82,7 +82,7 @@ npm install
 Create `.env` file in backend directory:
 ```env
 PORT=4000
-DB_CONNECT=mongodb://localhost:27017/taskdeck
+DB_CONNECT=mongodb://localhost:27017/taskmate
 JWT_SECRET=your_jwt_secret
 SALT=your_salt_value
 ```

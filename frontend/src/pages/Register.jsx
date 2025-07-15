@@ -168,7 +168,7 @@ const Register = () => {
                         </svg>
                     </div>
                     <h1 className="text-3xl font-bold text-gray-900 mb-2">Create Account</h1>
-                    <p className="text-gray-600">Join TaskDeck and start organizing your tasks</p>
+                    <p className="text-gray-600">Join TaskMate and start organizing your tasks</p>
                 </div>
 
                 {/* Form */}

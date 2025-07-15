@@ -325,7 +325,7 @@ const MyTasks = () => {
                                                     onClick={() => toggleTask(task._id)}
                                                     disabled={toggleLoading === task._id}
                                                     className={`flex items-center px-3 py-1 text-sm text-white rounded-md transition-colors ${
-                                                        task.isCompleted 
+                                                        task.isPublic 
                                                             ? 'bg-yellow-600 hover:bg-yellow-700' 
                                                             : 'bg-green-600 hover:bg-green-700'
                                                     } disabled:opacity-50 disabled:cursor-not-allowed`}
@@ -340,7 +340,7 @@ const MyTasks = () => {
                                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
                                                         </svg>
                                                     )}
-                                                    {task.isCompleted ? 'Mark Pending' : 'Mark Complete'}
+                                                    {task.isPublic ? 'Mark private' : 'Mark public'}
                                                 </button>
 
                                                 <button

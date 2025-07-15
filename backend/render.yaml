@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: taskdeck-api
+    name: taskmate-api
     env: node
     buildCommand: npm install
     startCommand: node index.js

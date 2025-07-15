@@ -1,7 +1,7 @@
-# TaskDeck Frontend Documentation
+# taskmate Frontend Documentation
 
 ## Overview
-TaskDeck is a task management application built with React and Tailwind CSS that allows users to create, manage, and share tasks.
+taskmate is a task management application built with React and Tailwind CSS that allows users to create, manage, and share tasks.
 
 ## Tech Stack
 - React (with Vite)
@@ -18,10 +18,10 @@ TaskDeck is a task management application built with React and Tailwind CSS that
 ### Installation
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone git@github.com:Y4xx/task-mate.git
 
 # Navigate to frontend directory
-cd taskdeck/frontend
+cd taskmate/frontend
 
 # Install dependencies
 npm install

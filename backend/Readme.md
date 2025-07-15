@@ -1,4 +1,4 @@
-# TaskDeck API Documentation
+# TaskMate API Documentation
 
 ## Base URL
 ```
