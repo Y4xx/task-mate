@@ -1,7 +1,7 @@
-# TaskDeck - Task Management Application
+# TaskMate - Task Management Application
 
 ## Overview
-TaskDeck is a full-stack task management application that allows users to create, manage, and share tasks. Built with React.js for the frontend and Node.js/Express for the backend.
+TaskMate is a full-stack task management application that allows users to create, manage, and share tasks. Built with React.js for the frontend and Node.js/Express for the backend.
 
 ## Features
 
