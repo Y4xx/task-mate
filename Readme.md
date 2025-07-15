@@ -68,7 +68,7 @@ taskmate/
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone git@github.com:Y4xx/task-mate.git
 cd task-mate
 ```
 
